@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885635AF1AEED52600A2B4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885635AE1AEED52600A2B4D7 /* AppDelegate.swift */; };
+		885635B11AEED52600A2B4D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885635B01AEED52600A2B4D7 /* Images.xcassets */; };
+		885635C01AEED52600A2B4D7 /* DemoMacBarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885635BF1AEED52600A2B4D7 /* DemoMacBarAppTests.swift */; };
+		F70E07611AF1223100566394 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70E07601AF1223100566394 /* MainMenu.xib */; };
+		F772DA9B1AEFDC99006C7153 /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F772DA991AEFDC99006C7153 /* DirectoryViewController.swift */; };
+		F772DA9D1AEFDD53006C7153 /* DirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F772DA9A1AEFDC99006C7153 /* DirectoryViewController.xib */; };
+		F772DA9F1AEFE4C1006C7153 /* DirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F772DA9E1AEFE4C1006C7153 /* DirectoryCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885635BA1AEED52600A2B4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885635A11AEED52600A2B4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885635A81AEED52600A2B4D7;
+			remoteInfo = DemoMacBarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885635A91AEED52600A2B4D7 /* DemoMacBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMacBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885635AD1AEED52600A2B4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885635AE1AEED52600A2B4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		885635B01AEED52600A2B4D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		885635B91AEED52600A2B4D7 /* DemoMacBarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMacBarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885635BE1AEED52600A2B4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885635BF1AEED52600A2B4D7 /* DemoMacBarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMacBarAppTests.swift; sourceTree = "<group>"; };
+		F70E07601AF1223100566394 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		F772DA991AEFDC99006C7153 /* DirectoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
+		F772DA9A1AEFDC99006C7153 /* DirectoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryViewController.xib; sourceTree = "<group>"; };
+		F772DA9E1AEFE4C1006C7153 /* DirectoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885635A61AEED52600A2B4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885635B61AEED52600A2B4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885635A01AEED52600A2B4D7 = {
+			isa = PBXGroup;
+			children = (
+				885635AB1AEED52600A2B4D7 /* DemoMacBarApp */,
+				885635BC1AEED52600A2B4D7 /* DemoMacBarAppTests */,
+				885635AA1AEED52600A2B4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885635AA1AEED52600A2B4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885635A91AEED52600A2B4D7 /* DemoMacBarApp.app */,
+				885635B91AEED52600A2B4D7 /* DemoMacBarAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885635AB1AEED52600A2B4D7 /* DemoMacBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				885635AE1AEED52600A2B4D7 /* AppDelegate.swift */,
+				F772DA991AEFDC99006C7153 /* DirectoryViewController.swift */,
+				F772DA9A1AEFDC99006C7153 /* DirectoryViewController.xib */,
+				F772DA9E1AEFE4C1006C7153 /* DirectoryCell.swift */,
+				F70E07601AF1223100566394 /* MainMenu.xib */,
+				885635B01AEED52600A2B4D7 /* Images.xcassets */,
+				885635AC1AEED52600A2B4D7 /* Supporting Files */,
+			);
+			path = DemoMacBarApp;
+			sourceTree = "<group>";
+		};
+		885635AC1AEED52600A2B4D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885635AD1AEED52600A2B4D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885635BC1AEED52600A2B4D7 /* DemoMacBarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				885635BF1AEED52600A2B4D7 /* DemoMacBarAppTests.swift */,
+				885635BD1AEED52600A2B4D7 /* Supporting Files */,
+			);
+			path = DemoMacBarAppTests;
+			sourceTree = "<group>";
+		};
+		885635BD1AEED52600A2B4D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885635BE1AEED52600A2B4D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885635A81AEED52600A2B4D7 /* DemoMacBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885635C31AEED52600A2B4D7 /* Build configuration list for PBXNativeTarget "DemoMacBarApp" */;
+			buildPhases = (
+				885635A51AEED52600A2B4D7 /* Sources */,
+				885635A61AEED52600A2B4D7 /* Frameworks */,
+				885635A71AEED52600A2B4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMacBarApp;
+			productName = DemoMacBarApp;
+			productReference = 885635A91AEED52600A2B4D7 /* DemoMacBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885635B81AEED52600A2B4D7 /* DemoMacBarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885635C61AEED52600A2B4D7 /* Build configuration list for PBXNativeTarget "DemoMacBarAppTests" */;
+			buildPhases = (
+				885635B51AEED52600A2B4D7 /* Sources */,
+				885635B61AEED52600A2B4D7 /* Frameworks */,
+				885635B71AEED52600A2B4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885635BB1AEED52600A2B4D7 /* PBXTargetDependency */,
+			);
+			name = DemoMacBarAppTests;
+			productName = DemoMacBarAppTests;
+			productReference = 885635B91AEED52600A2B4D7 /* DemoMacBarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885635A11AEED52600A2B4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = com.tonicdesign;
+				TargetAttributes = {
+					885635A81AEED52600A2B4D7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					885635B81AEED52600A2B4D7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 885635A81AEED52600A2B4D7;
+					};
+				};
+			};
+			buildConfigurationList = 885635A41AEED52600A2B4D7 /* Build configuration list for PBXProject "DemoMacBarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885635A01AEED52600A2B4D7;
+			productRefGroup = 885635AA1AEED52600A2B4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885635A81AEED52600A2B4D7 /* DemoMacBarApp */,
+				885635B81AEED52600A2B4D7 /* DemoMacBarAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885635A71AEED52600A2B4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F772DA9D1AEFDD53006C7153 /* DirectoryViewController.xib in Resources */,
+				885635B11AEED52600A2B4D7 /* Images.xcassets in Resources */,
+				F70E07611AF1223100566394 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885635B71AEED52600A2B4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885635A51AEED52600A2B4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F772DA9F1AEFE4C1006C7153 /* DirectoryCell.swift in Sources */,
+				F772DA9B1AEFDC99006C7153 /* DirectoryViewController.swift in Sources */,
+				885635AF1AEED52600A2B4D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885635B51AEED52600A2B4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885635C01AEED52600A2B4D7 /* DemoMacBarAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885635BB1AEED52600A2B4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885635A81AEED52600A2B4D7 /* DemoMacBarApp */;
+			targetProxy = 885635BA1AEED52600A2B4D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		885635C11AEED52600A2B4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		885635C21AEED52600A2B4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		885635C41AEED52600A2B4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DemoMacBarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		885635C51AEED52600A2B4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DemoMacBarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		885635C71AEED52600A2B4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoMacBarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMacBarApp.app/Contents/MacOS/DemoMacBarApp";
+			};
+			name = Debug;
+		};
+		885635C81AEED52600A2B4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoMacBarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMacBarApp.app/Contents/MacOS/DemoMacBarApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885635A41AEED52600A2B4D7 /* Build configuration list for PBXProject "DemoMacBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885635C11AEED52600A2B4D7 /* Debug */,
+				885635C21AEED52600A2B4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885635C31AEED52600A2B4D7 /* Build configuration list for PBXNativeTarget "DemoMacBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885635C41AEED52600A2B4D7 /* Debug */,
+				885635C51AEED52600A2B4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885635C61AEED52600A2B4D7 /* Build configuration list for PBXNativeTarget "DemoMacBarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885635C71AEED52600A2B4D7 /* Debug */,
+				885635C81AEED52600A2B4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885635A11AEED52600A2B4D7 /* Project object */;
+}
